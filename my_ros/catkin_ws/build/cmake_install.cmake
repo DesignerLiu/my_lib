@@ -117,12 +117,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/liu/my_ros/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/liu/my_ros/catkin_ws/build/iai_kinect2/iai_kinect2/cmake_install.cmake")
   include("/home/liu/my_ros/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
-  include("/home/liu/my_ros/catkin_ws/build/iai_kinect2/kinect2_registration/cmake_install.cmake")
-  include("/home/liu/my_ros/catkin_ws/build/iai_kinect2/kinect2_bridge/cmake_install.cmake")
-  include("/home/liu/my_ros/catkin_ws/build/iai_kinect2/kinect2_calibration/cmake_install.cmake")
-  include("/home/liu/my_ros/catkin_ws/build/iai_kinect2/kinect2_viewer/cmake_install.cmake")
   include("/home/liu/my_ros/catkin_ws/build/video_stream_opencv/cmake_install.cmake")
 
 endif()
