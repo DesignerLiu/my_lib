@@ -1,0 +1,8 @@
+prefix=/home/liu/SLAM/catkin_ws01/install
+
+Name: flashgo
+Description: Description of flashgo
+Version: 2.3.9
+Cflags: 
+Libs: -L/home/liu/SLAM/catkin_ws01/install/lib 
+Requires: 
